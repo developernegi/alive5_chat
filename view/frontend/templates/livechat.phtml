@@ -1,0 +1,17 @@
+<?php
+/** @var \Alive5\LiveChat\Block\LiveChat $block */
+?>
+<?php if($block->isEnabled()):?>
+    <script type="text/javascript">
+		            (function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)){ return; }
+					js = d.createElement(s);
+					js.id = id;
+					js.async = true;
+					js.src="//alive5.com/js/a5app.js";
+					js.setAttribute("data-widget_code_id", "<?php echo $this->getWidgetId() ?>");
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, "script", "a5widget"));
+	</script>
+<?php endif?>

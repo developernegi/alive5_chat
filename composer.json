@@ -1,0 +1,26 @@
+{
+    "name": "alive5/livechat",
+    "description": "Alive5 Live Chat Magento 2 Extension",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0"
+    ],
+    "require": {
+      "php": "~7.1.0||~7.2.0||~7.3.0||~7.4.0",
+    },
+    "authors": [
+      {
+        "name": "Dustin Yu",
+        "email": "integrations@alive5.com",
+        "homepage": "https://alive5.com/",
+        "role": "Developer"
+      }
+    ],
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Vendor\\Module\\": ""
+      }
+    }
+  }
