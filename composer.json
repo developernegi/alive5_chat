@@ -3,14 +3,6 @@
     "description": "Alive5 Live Chat Magento 2 Extension",
     "type": "magento2-module",
     "version": "1.0.0",
-	"extra": {
-        "map": [
-            [
-                "*",
-                "Alive5/LiveChat"
-            ]
-        ]
-    },
     "license": [
       "OSL-3.0"
     ],
