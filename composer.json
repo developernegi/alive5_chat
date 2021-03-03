@@ -7,7 +7,7 @@
       "OSL-3.0"
     ],
     "require": {
-      "php": "~7.4.0"
+      "php": "~7.3.0 || ~7.4.0"
     },
     "authors": [
       {
@@ -20,7 +20,7 @@
     "autoload": {
       "files": [ "registration.php" ],
       "psr-4": {
-        "Vendor\\Module\\": ""
+        "Alive5\\LiveChat\\": ""
       }
     }
   }
