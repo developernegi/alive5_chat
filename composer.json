@@ -2,7 +2,7 @@
     "name": "alive5/livechat",
     "description": "Alive5 Live Chat Magento 2 Extension",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
       "OSL-3.0"
     ],
@@ -12,7 +12,7 @@
     "authors": [
       {
         "name": "Prateek Tyagi",
-        "email": "integrations@alive5.com",
+        "email": "pratiktyagi1@gmail.com",
         "homepage": "https://alive5.com/",
         "role": "Developer"
       }
