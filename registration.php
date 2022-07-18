@@ -7,5 +7,3 @@ ComponentRegistrar::register(
     'Alive5_LiveChat',
     __DIR__
 );
-
-updated
